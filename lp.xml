@@ -1,0 +1,252 @@
+<linker>
+<assembly fullname="MGP">
+<type fullname="MGP.Matching.WrappedResponse`1"/>
+<type fullname="MGP.Matching.MatchGameResponse"/>
+<type fullname="MGP.Session"/>
+<type fullname="MGP.MgpClient"/>
+<type fullname="MGP.Connection`1"/>
+</assembly>
+<assembly fullname="Facebook.Common">
+<type fullname="Facebook.Common.DTO.DataWrapperDto`1"/>
+<type fullname="Facebook.Common.DTO.ErrorDto"/>
+<type fullname="Facebook.Common.DTO.ErrorWrapperDto"/>
+<type fullname="Facebook.Common.DTO.SummaryDto"/>
+<type fullname="Facebook.Common.DTO.PagingDto"/>
+<type fullname="Facebook.Common.DTO.CursorsDto"/>
+<type fullname="Facebook.Common.DTO.FriendDto"/>
+<type fullname="Facebook.Common.DTO.PictureDataDto"/>
+<type fullname="Facebook.Common.DTO.PageDto"/>
+<type fullname="Facebook.Common.DTO.PermissionDto"/>
+<type fullname="Facebook.Common.DTO.PublishedImageDto"/>
+<type fullname="Facebook.Common.DTO.PublishResultDto"/>
+<type fullname="Facebook.Common.DTO.TokenInfoDto"/>
+<type fullname="Facebook.Common.DTO.UserDto"/>
+<type fullname="Facebook.Common.DTO.LikeDto"/>
+<type fullname="Facebook.Common.FacebookFacade"/>
+</assembly>
+<assembly fullname="OneConnect">
+<type fullname="OneConnect.Session.ErrorDto"/>
+<type fullname="OneConnect.RestOneConnect"/>
+<type fullname="OneConnect.OneConnectFacade"/>
+<type fullname="OneConnect.Session.SessionDto"/>
+<type fullname="OneConnect.Session.RefreshResponse"/>
+</assembly>
+<assembly fullname="mscorlib">
+<type fullname="System.Convert.ChangeType"/>
+</assembly>
+<assembly fullname="Monosyne.Utils">
+<type fullname="Monosyne.Utils.RefCount"/>
+</assembly>
+<assembly fullname="BB">
+<type fullname="BB.Assets.UiFactory"/>
+<type fullname="BB.Commands.ShowPopupCommand"/>
+<type fullname="BB.Networking.JsonFormatter"/>
+<type fullname="BB.Networking.HttpSettingsProvider"/>
+<type fullname="BB.Networking.BingoHttpSettings"/>
+<type fullname="BB.ApiCommunication.BingoBlitzApiLogger"/>
+<type fullname="BB.Assets.UiControlSceneMetadataResolver"/>
+<type fullname="BB.Assets.UiControlResolver"/>
+<type fullname="BB.Layout.MultiPathResolver"/>
+<type fullname="BB.Assets.AsyncUiFactory"/>
+<type fullname="BB.Controllers.ControllerFactory"/>
+<type fullname="BB.Controllers.ViewContext"/>
+<type fullname="BB.Utils.ColorConverter"/>
+<type fullname="BB.Assets.ContentBuilder"/>
+<type fullname="BB.MonosyneExt.Utils.ActionRunner"/>
+<type fullname="BB.OneConnect.BingoBlitzOneConnectSettings"/>
+<type fullname="BB.SocialNetwork.FacebookSocialNetwork"/>
+<type fullname="BB.SocialNetwork.FacebookAcessTokenProviderStub"/>
+<type fullname="BB.Commands.CreateControllerCommand"/>
+<type fullname="BB.AmbientContext"/>
+<type fullname="BB.Environment.ApplicationExitStub"/>
+<type fullname="BB.Environment.NoFullScreen"/>
+<type fullname="BB.Networking.OverridableServerSettings"/>
+<type fullname="BB.Logging.CardsLogSenderSettings"/>
+<type fullname="BB.Logging.DefaultCardsLogSenderSettings"/>
+<type fullname="BB.Networking.DefaultServerSettings"/>
+<type fullname="BB.Device.ScreenInfoStub"/>
+<type fullname="BB.Networking.UriResolver"/>
+<type fullname="BB.Networking.FactoryWithFallback`1"/>
+<type fullname="BB.SocialNetwork.FacebookLoginPermissionsStrategy"/>
+<type fullname="BB.Layout.LayoutInfo"/>
+<type fullname="BB.Controllers.NavigationStack"/>
+<type fullname="BB.Assets.Download.WebImageLoader"/>
+<type fullname="BB.Assets.Download.WebVideoLoader"/>
+<type fullname="BB.Assets.UiControl"/>
+<type fullname="BB.Logging.ToCardsLogSender"/>
+<type fullname="BB.Logging.LogSenderFacade"/>
+<type fullname="BB.ScreenTracking.ScreenTrackingUiFactoryDecorator"/>
+<type fullname="BB.OneConnect.OneConnectFadeGameDecorator"/>
+<type fullname="BB.Environment.PushNotificationsTokenProviderActiveObjectDecorator"/>
+<type fullname="BB.Environment.LocalNotificationsSchedulerActiveObjectDecorator"/>
+<type fullname="BB.Environment.SystemRateUsServiceActiveObjectDecorator"/>
+<type fullname="BB.Messaging.JsonMessageConverter"/>
+</assembly>
+<assembly fullname="BBAppIOS">
+<type fullname="BB.App.IOS.IOSClipboard"/>
+<type fullname="BB.App.IOS.Notifications.IOSPushNotificationsTokenProvider"/>
+<type fullname="BB.App.IOS.TextCommunicator.IOSTextCommunicator"/>
+<type fullname="BB.App.IOS.IOSSystemRateUsService"/>
+<type fullname="BB.App.IOS.OneReward.IOSOneReward"/>
+<type fullname="BB.App.IOS.IOSDeviceInfo"/>
+<type fullname="BB.App.IOS.IOSApplicationMarketplace"/>
+<type fullname="BB.App.Mgp.HttpCommunicatorObserver"/>
+<type fullname="BB.App.Mgp.WebSocketConnectorObserver"/>
+<type fullname="BB.App.IOS.Payments.IOSPurchaseObserver"/>
+<type fullname="BB.App.IOS.Payments.IOSPurchaseValuesProvider"/>
+<type fullname="BB.App.IOS.IOSUserAgentProvider"/>
+<type fullname="BB.App.IOS.IOSBrowser"/>
+<type fullname="BB.App.IOS.IOSSystemSettings"/>
+<type fullname="BB.App.IOS.IOSAuthenticationRequestComposer"/>
+<type fullname="BB.App.IOS.IOSLegacySettingsProvider"/>
+<type fullname="BB.App.TlsCertificateManager"/>
+<type fullname="BB.Logging.ExtraLogging"/>
+<type fullname="BB.App.IOS.IOSScreenInfo"/>
+<type fullname="BB.App.IOS.Notifications.IOS10AndAboveLocalNotificationsScheduler"/>
+<type fullname="BB.App.IOS.AppsFlyer.IOSAppsFlyer"/>
+<type fullname="BB.App.IOS.IOSAppSee"/>
+<type fullname="BB.App.IOS.Notifications.IOS9AndBelowLocalNotificationsScheduler"/>
+<type fullname="BB.App.Messaging.SmartFoxWrapper"/>
+<type fullname="BB.App.IOS.AppBoy.IosAppboyService"/>
+<type fullname="BB.App.Mgp.XplatTransportFactory"/>
+</assembly>
+<assembly fullname="Core">
+<type fullname="Core.Settings.FilePerKeyValueStorage"/>
+<type fullname="Core.Http.HttpClientHandlerConfigurator"/>
+<type fullname="Core.Http.HttpClientHandlerFactory"/>
+<type fullname="Core.Http.EmptyHttpResponseHeadersProvider"/>
+<type fullname="Core.Http.HttpService"/>
+<type fullname="Core.Http.HttpClientFactory"/>
+</assembly>
+<assembly fullname="ApiCommunication.NETStandard">
+<type fullname="ApiCommunication.API.Infra.ApiRequestManager"/>
+<type fullname="ApiCommunication.API.Infra.Conveyor.RepeatRequestConveyorStep"/>
+<type fullname="ApiCommunication.Http.DecompressingDelegatingHandlerFactory"/>
+<type fullname="ApiCommunication.API.Infra.Conveyor.RequestConveyor"/>
+</assembly>
+<assembly fullname="ContentSystem">
+<type fullname="ContentSystem.Scenes.MultiPathSceneFactory"/>
+<type fullname="ContentSystem.Resources.ResourceFactory"/>
+</assembly>
+<assembly fullname="DeveloperConsole">
+<type fullname="DeveloperConsole.Interpreters.ConsoleCommandFactory"/>
+<type fullname="DeveloperConsole.DevConsole"/>
+<type fullname="DeveloperConsole.Interpreters.ConsoleCommandExecuter"/>
+<type fullname="DeveloperConsole.ConsoleCommandsHistory"/>
+</assembly>
+<assembly fullname="EventStream">
+<type fullname="EventStream.Dispatchers.BufferingEventDispatcher"/>
+</assembly>
+<assembly fullname="Facebook.IOS">
+<type fullname="Facebook.IOS.IOSFacebookApi"/>
+<type fullname="Facebook.IOS.IOSAppEvents"/>
+</assembly>
+<assembly fullname="Browser.Ng.IOS">
+<type fullname="Browser.Ng.IOS.IOSExternalBrowser"/>
+</assembly>
+<assembly fullname="MGP.WebSockets.Connectors.Standard">
+<type fullname="MGP.WebSockets.Connectors.Standard.DefaultWebSocketConnector"/>
+</assembly>
+<assembly fullname="InAppPurchasesIOSUnified">
+<type fullname="InAppPurchases.IOS.IOSPurchaseService`1"/>
+<type fullname="InAppPurchases.Apple.AppleProductProvider"/>
+<type fullname="InAppPurchases.Apple.BillingService"/>
+</assembly>
+<assembly fullname="InAppPurchases">
+<type fullname="InAppPurchases.PaymentObserverStub`2"/>
+<type fullname="InAppPurchases.ProductProviderStub"/>
+<type fullname="InAppPurchases.PaymentContext`2"/>
+<type fullname="InAppPurchases.PaymentService`2"/>
+</assembly>
+<assembly fullname="Core.IOS">
+<type fullname="Core.Network.NetworkStatusMonitor"/>
+<type fullname="Core.Network.ProxyStatusMonitor"/>
+<type fullname="Core.Network.ProxyConfigurator"/>
+</assembly>
+<assembly fullname="RemoteResources">
+<type fullname="RemoteResources.DownloadWorker"/>
+<type fullname="RemoteResources.RemoteResourceDownloader`2"/>
+<type fullname="RemoteResources.RemoteResourceDownloadQueue`2"/>
+<type fullname="RemoteResources.RemoteResourceDownloaderSettings"/>
+<type fullname="RemoteResources.ThreadWithContext"/>
+<type fullname="RemoteResources.ProgressReporter`1"/>
+<type fullname="RemoteResources.RemoteResourceBundleRepository`2"/>
+</assembly>
+<assembly fullname="MGP.Stomp">
+<type fullname="MGP.Stomp.Protocols.StompMessageHistory"/>
+<type fullname="MGP.Stomp.Protocols.StompProtocolFactory"/>
+<type fullname="MGP.Stomp.JsonMessageCoder"/>
+</assembly>
+<assembly fullname="MGP.WebSockets.ClientWebSocketCustom">
+<type fullname="MGP.WebSockets.HttpCommunicator"/>
+</assembly>
+<assembly fullname="System.Runtime">
+<type fullname="System.String"/>
+<type fullname="System.Int64"/>
+</assembly>
+<assembly fullname="Newtonsoft.Json">
+<type fullname="Newtonsoft.Json.JsonConverter"/>
+<type fullname="Newtonsoft.Json.JsonConverter`1"/>
+<type fullname="Newtonsoft.Json.Converters.BinaryConverter"/>
+<type fullname="Newtonsoft.Json.Converters.BsonObjectIdConverter"/>
+<type fullname="Newtonsoft.Json.Converters.CustomCreationConverter`1"/>
+<type fullname="Newtonsoft.Json.Converters.DateTimeConverterBase"/>
+<type fullname="Newtonsoft.Json.Converters.IsoDateTimeConverter"/>
+<type fullname="Newtonsoft.Json.Converters.JavaScriptDateTimeConverter"/>
+<type fullname="Newtonsoft.Json.Converters.UnixDateTimeConverter"/>
+<type fullname="Newtonsoft.Json.Converters.DiscriminatedUnionConverter"/>
+<type fullname="Newtonsoft.Json.Converters.ExpandoObjectConverter"/>
+<type fullname="Newtonsoft.Json.Converters.KeyValuePairConverter"/>
+<type fullname="Newtonsoft.Json.Converters.RegexConverter"/>
+<type fullname="Newtonsoft.Json.Converters.StringEnumConverter"/>
+<type fullname="Newtonsoft.Json.Converters.VersionConverter"/>
+<type fullname="Newtonsoft.Json.Converters.DataSetConverter"/>
+<type fullname="Newtonsoft.Json.Converters.DataTableConverter"/>
+<type fullname="Newtonsoft.Json.Converters.EntityKeyMemberConverter"/>
+</assembly>
+<assembly fullname="AppsFlyerXamarinBinding">
+<type fullname="*"/>
+</assembly>
+<assembly fullname="Packages">
+<type fullname="*"/>
+</assembly>
+<assembly fullname="PackageAttributes">
+<type fullname="*"/>
+</assembly>
+<assembly fullname="BB.Slots">
+<type fullname="*"/>
+</assembly>
+<assembly fullname="BB.App">
+<type fullname="*"/>
+</assembly>
+<assembly fullname="BB.Bingo">
+<type fullname="*"/>
+</assembly>
+<assembly fullname="BB.Features">
+<type fullname="*"/>
+</assembly>
+<assembly fullname="SharpYaml">
+<type fullname="*"/>
+</assembly>
+<assembly fullname="Autofac">
+<type fullname="*"/>
+</assembly>
+<assembly fullname="AutomationApi">
+<type fullname="*"/>
+</assembly>
+<assembly fullname="HttpServer">
+<type fullname="*"/>
+</assembly>
+<assembly fullname="BB.App.Dev">
+<type fullname="*"/>
+</assembly>
+<assembly fullname="BB.Bingo.Dev">
+<type fullname="*"/>
+</assembly>
+<assembly fullname="BB.Features.Dev">
+<type fullname="*"/>
+</assembly>
+<assembly fullname="BB.Slots.Dev">
+<type fullname="*"/>
+</assembly>
+</linker>
